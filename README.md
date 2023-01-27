@@ -2,6 +2,8 @@
 
 sh, bash, ksh i18n (gettext, catgets) examples.
 
+**NOTE**: I wrote a new i18n library [sh-gettext](https://github.com/ko1nksm/sh-gettext) for shell scripts.
+
 ## Examples
 
 The included message catalog (`sh-i18n.mo`, `sh-i18n.C.cat`, `sh-i18n.ja.cat`) are not portable. If it doesn't work, regenerate it using `./re-generate-messages.sh`.
